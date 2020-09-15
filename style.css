@@ -804,7 +804,7 @@ button:hover {
     position: absolute;
     top: 480.5vh;
     width: 1440px;
-    height: 150vh;
+    height: 120vh;
     background: #E5EEF6;
 }
 
@@ -966,3 +966,35 @@ button:hover {
     color: #191768;
 }
 
+.next-steps {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 601vh;
+    background: #E5EEF6;
+}
+
+.next-steps-header {
+    position: absolute;
+    width: 659px;
+    height: 98px;
+    left: 10vw;
+    top: 25vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.next-steps-header p {
+    color: #969392;
+    font-size: 1.3rem;
+}
+
+.next-steps-header h1 {
+    color: #282727;
+    font-size: 2.0rem;
+}
