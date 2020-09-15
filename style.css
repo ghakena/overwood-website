@@ -797,3 +797,94 @@ button:hover {
     text-decoration-line: underline;
     color: #4CADAC;
 }
+
+/* testimonials section */
+
+.testimonials {
+    position: absolute;
+    top: 480.5vh;
+    width: 1440px;
+    height: 100vh;
+    background: #E5EEF6;
+}
+
+.header {
+    position: absolute;
+    /* top: 10vh;
+    left: 4vw; */
+}
+
+.header-title {
+    position: absolute;
+    width: 314.5px;
+    height: 44.93px;
+    left: 137px;
+    top: 84px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.1881px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #847E7E;
+}
+
+.header-description {
+    position: absolute;
+    width: 853.65px;
+    height: 63.67px;
+    left: 137px;
+    top: 129.33px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43.1683px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    color: #282727;
+}
+
+.testimonial-card-1 {
+    position: absolute;
+    width: 345.45px;
+    height: 380px;
+    left: 13.7rem;
+    top: 246px;
+    background: #FFFFFF;
+}
+
+.person-name-1 {
+    position: absolute;
+    width: 345.45px;
+    height: 34.55px;
+    left: 137px;
+    top: 246px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.6876px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #353333;
+}
+
+.testimonial-card-2 {
+    position: absolute;
+    width: 345.45px;
+    height: 380px;
+    left: 37vw;
+    top: 246px;
+    background: #FFFFFF;
+}
+
+.testimonial-card-3 {
+    position: absolute;
+    width: 345.45px;
+    height: 380px;
+    left: 64vw;
+    top: 246px;
+    background: #FFFFFF;
+}
