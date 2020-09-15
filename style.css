@@ -1007,8 +1007,91 @@ button:hover {
 .next-steps-body {
     position: absolute;
     width: 1100px;
-    height: 231px;
+    height: 220px;
     left: 10vw;
     top: 44vh;
     background: #F8F9FA;
+}
+
+.next-steps-single-1 {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 1vw;
+    top: 1vh;
+    background: #F9F5F0;
+}
+
+.next-steps-single-2 {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 27.5vw;
+    top: 1vh;
+    background: #F9F5F0;
+}
+
+.next-steps-single-3 {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 54vw;
+    top: 1vh;
+    background: #F9F5F0;
+}
+
+.invest-now, .request-details, .contact-us {
+    position: absolute;
+    width: 341px;
+    height: 175.6px;
+    left: 1vw;
+    top: 2vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #353333;
+}
+
+.invest-now-body {
+    position: absolute;
+    width: 341px;
+    height: 175.6px;
+    left: 1vw;
+    top: 10vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1F66A4;
+}
+
+.request-details-body {
+    position: absolute;
+    width: 341px;
+    height: 175.6px;
+    left: 1vw;
+    top: 10vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1F66A4;
+}
+
+.contact-us-body {
+    position: absolute;
+    width: 341px;
+    height: 175.6px;
+    left: 1vw;
+    top: 10vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1F66A4;
 }
