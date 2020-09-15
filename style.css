@@ -804,7 +804,7 @@ button:hover {
     position: absolute;
     top: 480.5vh;
     width: 1440px;
-    height: 100vh;
+    height: 150vh;
     background: #E5EEF6;
 }
 
@@ -938,8 +938,31 @@ button:hover {
     top: 281.84px;
     background: #D4F6F6;
 } */
+
 .vector {
     position: absolute;
     top: 5vh;
     left: 20vw;
 }
+
+.person-body {
+    position: absolute;
+    width: 276.36px;
+    height: 172.73px;
+    left: 2vw;
+    top: 26vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 19px;
+    color: #353333;
+}
+
+.person-body-read-more {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 19px;
+    color: #191768;
+}
+
