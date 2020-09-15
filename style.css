@@ -1003,3 +1003,12 @@ button:hover {
     font-size: 5.0rem;
     font-weight: bolder;
 }
+
+.next-steps-body {
+    position: absolute;
+    width: 1100px;
+    height: 231px;
+    left: 10vw;
+    top: 44vh;
+    background: #F8F9FA;
+}
