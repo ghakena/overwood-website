@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* width: 100vw; */
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    height: 175vh;
+    background: #E5EEF6;
+    overflow-x: hidden;
+}
+
+
+.heading {
+    position: absolute;
+    width: 224px;
+    height: 58px;
+    left: 114px;
+    top: 35px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.9rem;
+    line-height: 52px;
+
+    color: #65DCDF;
+}
+
+.our-products {
+    position: absolute;
+    width: 158.65px;
+    height: 48.08px;
+    left: 361px;
+    top: 45px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 29px;
+
+    color: #575F94;
+}
+
+.faqs {
+    position: absolute;
+    width: 52.88px;
+    height: 48.08px;
+    left: 528.31px;
+    top: 45px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 29px;
+
+    color: #575F94;
+}
+
+.contact {
+    position: absolute;
+    width: 90px;
+    height: 48px;
+    left: 609px;
+    top: 45px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 29px;
+
+    color: #575F94;
+}
+
+.blog {
+    position: absolute;
+    width: 50.96px;
+    height: 48.08px;
+    left: 715.81px;
+    top: 45px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 29px;
+
+    color: #575F94;
+
+}
+
+.six-things {
+    position: absolute;
+    width: 177px;
+    height: 50px;
+    left: 798px;
+    top: 45px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 29px;
+
+    color: #575F94;
+}
+
+.log-in {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 1000px;
+    top: 38px;
+
+    background: #23D3D3;
+
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.create-account {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 1150px;
+    top: 38px;
+
+    background: #1E266D;
+
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.earn {
+    position: absolute;
+    width: 354px;
+    height: 41px;
+    left: 80px;
+    top: 215px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 27px;
+
+    color: #1E266D;
+}
+
+.safe-high-yield {
+    position: absolute;
+    width: 598px;
+    height: 161px;
+    left: 80px;
+    top: 272px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 4.0rem;
+    line-height: 90px;
+
+    color: #1E266D;
+}
+
+.opening-message {
+    position: absolute;
+    width: 633.47px;
+    height: 250px;
+    left: 80px;
+    top: 447px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+
+    color: #444546;
+}
+
+.serve {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 19.0678px;
+    line-height: 29px;
+
+    color: #1E266D;
+
+}
+
+.invest-btn {
+    position: absolute;
+    width: 152px;
+    height: 42px;
+    left: 0px;
+    top: 100px;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    background: #1E266D;
+    color: white;
+    border: none;
+}
+
+.banner-img {
+    position: absolute;
+    width: 608px;
+    height: 400px;
+    left: 700px;
+    top: 225.98px;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    display: inline;
+}
+
+.card-1 {
+    position: absolute;
+    width: 250px;
+    height: 202.3px;
+    left: 100px;
+    top: 650px;
+
+    background-color: white;
+
+}
+
+.card-2 {
+    position: absolute;
+    width: 250px;
+    height: 202.3px;
+    left: 397.61px;
+    top: 650px;
+
+    background-color: white;
+}
+
+.card-3 {
+    position: absolute;
+    width: 250px;
+    height: 202.3px;
+    left: 691.08px;
+    top: 650px;
+
+    background-color: white;
+}
+
+.card-4 {
+    position: absolute;
+    width: 250px;
+    height: 202.3px;
+    left: 982.54px;
+    top: 650px;
+
+    background-color: white;
+}
