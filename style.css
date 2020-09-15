@@ -625,7 +625,175 @@ button:hover {
 }
 
 .products-h1 {
+    position: absolute;
+    top: 10vh;
+    left: 6rem;
     font-size: 2.5rem;
     font-weight: bold;
     color: #353333;
+}
+
+.products-body {
+    position: absolute;
+    width: 1224px;
+    height: 317px;
+    left: 6rem;
+    top: 30vh;
+    background: #F8F9FA;
+}
+
+.products-individual-1 {
+    position: absolute;
+    width: 382.13px;
+    height: 289.19px;
+    left: 2vw;
+    top: 2vh;
+    background: #F9F5F0;
+}
+
+.products-individual-2 {
+    position: absolute;
+    width: 382.13px;
+    height: 289.19px;
+    left: 31vw;
+    top: 2vh;
+    background: #F9F5F0;
+}
+
+.products-individual-3 {
+    position: absolute;
+    width: 382.13px;
+    height: 289.19px;
+    left: 60vw;
+    top: 2vh;
+    background: #F9F5F0;
+}
+
+.overwood-prime {
+    position: absolute;
+    width: 357.57px;
+    height: 257.68px;
+    left: 3vw;
+    top: 2vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #72B4F8;
+}
+
+.overwood-prime-body {
+    position: absolute;
+    /* width: 357.57px; */
+    height: 257.68px;
+    left: 3vw;
+    top: 8vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #353333;
+}
+
+.overwood-dollar {
+    position: absolute;
+    width: 357.57px;
+    height: 257.68px;
+    left: 3vw;
+    top: 2vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5FD8D6;
+}
+
+.overwood-dollar-body {
+    position: absolute;
+    /* width: 357.57px; */
+    height: 257.68px;
+    left: 3vw;
+    top: 8vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #353333;
+}
+
+.overwood-child {
+    position: absolute;
+    width: 357.57px;
+    height: 257.68px;
+    left: 3vw;
+    top: 2vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8950FC;
+}
+
+.overwood-child-body {
+    position: absolute;
+    /* width: 357.57px; */
+    height: 257.68px;
+    left: 60vw;
+    top: 8vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #353333;
+}
+
+.more-info-1 {
+    position: absolute;
+    width: 357.57px;
+    height: 257.68px;
+    left: 4rem;
+    top: 25rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #4CADAC;
+}
+
+.more-info-2 {
+    position: absolute;
+    width: 357.57px;
+    height: 257.68px;
+    left: 4rem;
+    top: 25rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #4CADAC;
+}
+
+.more-info-3 {
+    position: absolute;
+    width: 357.57px;
+    height: 257.68px;
+    left: 4rem;
+    top: 25rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #4CADAC;
 }
