@@ -859,8 +859,8 @@ button:hover {
     position: absolute;
     width: 345.45px;
     height: 34.55px;
-    left: 137px;
-    top: 246px;
+    left: 0vw;
+    top: 2vh;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -869,6 +869,13 @@ button:hover {
     display: flex;
     align-items: center;
     color: #353333;
+    border-bottom: 0.431818px solid #000000;
+}
+
+.name {
+    position: absolute;
+    left: 2vw;
+    font-size: 15.6876px;
 }
 
 .testimonial-card-2 {
@@ -880,6 +887,23 @@ button:hover {
     background: #FFFFFF;
 }
 
+.person-name-2 {
+    position: absolute;
+    width: 345.45px;
+    height: 34.55px;
+    left: 0vw;
+    top: 2vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.6876px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #353333;
+    border-bottom: 0.431818px solid #000000;
+}
+
 .testimonial-card-3 {
     position: absolute;
     width: 345.45px;
@@ -887,4 +911,35 @@ button:hover {
     left: 64vw;
     top: 246px;
     background: #FFFFFF;
+}
+
+.person-name-3 {
+    position: absolute;
+    width: 345.45px;
+    height: 34.55px;
+    left: 0vw;
+    top: 2vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.6876px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #353333;
+    border-bottom: 0.431818px solid #000000;
+}
+
+/* .vector {
+    position: absolute;
+    width: 44.48px;
+    height: 82.48px;
+    left: 379.68px;
+    top: 281.84px;
+    background: #D4F6F6;
+} */
+.vector {
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
 }
