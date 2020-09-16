@@ -1232,7 +1232,7 @@ button:hover {
 .blog-individual-1 {
     position: absolute;
     width: 360px;
-    height: 70vh;
+    height: 73vh;
     left: 7vw;
     top: 1vh;
     background: #FFFFFF;
@@ -1241,7 +1241,7 @@ button:hover {
 .blog-individual-2 {
     position: absolute;
     width: 360px;
-    height: 70vh;
+    height: 73vh;
     left: 35vw;
     top: 1vh;
     background: #FFFFFF;
@@ -1250,7 +1250,7 @@ button:hover {
 .blog-individual-3 {
     position: absolute;
     width: 360px;
-    height: 70vh;
+    height: 73vh;
     left: 63vw;
     top: 1vh;
     background: #FFFFFF;
@@ -1262,4 +1262,99 @@ button:hover {
     height: 31vh;
     /* left: 85px;
     top: 240px; */
+}
+
+.footer-section {
+    position: absolute;
+    top: 832.0vh;
+    height: 60vh;
+    width: 100vw;
+    bottom: 0rem;
+    background: #00387A;
+}
+
+.footer-section-1 {
+    position: absolute;
+    width: 281px;
+    /* height: 50vw; */
+    left: 100px;
+    top: 10vh;
+    color: whitesmoke;
+}
+
+.footer-section-1 h4 {
+    font-size: 1.9rem;
+}
+
+.footer-section-1 p {
+    /* position: absolute; */
+    font-size: 1.5rem;
+}
+
+.footer-section-2 {
+    position: absolute;
+    width: 281px;
+    /* height: 50vw; */
+    left: 30vw;
+    top: 10vh;
+    color: whitesmoke;
+}
+
+.footer-section-2 h4 {
+    font-size: 1.9rem;
+}
+
+.footer-section-2 p {
+    /* position: absolute; */
+    font-size: 1.5rem;
+}
+
+.footer-section-3 {
+    position: absolute;
+    width: 281px;
+    /* height: 50vw; */
+    left: 50vw;
+    top: 10vh;
+    color: whitesmoke;
+}
+
+.footer-section-3 h4 {
+    font-size: 1.9rem;
+}
+
+.footer-section-3 p {
+    /* position: absolute; */
+    font-size: 1.5rem;
+}
+
+.footer-section-4 {
+    position: absolute;
+    width: 281px;
+    /* height: 50vw; */
+    left: 70vw;
+    top: 10vh;
+    color: whitesmoke;
+}
+
+.footer-section-4 h4 {
+    font-size: 1.9rem;
+}
+
+form>input {
+    display: block;
+    width: 20vw;
+    padding: 15px 20px;
+    border: none;
+    margin-bottom: 1vh;
+    font-size: 1.4rem;
+    border-radius: 3px;
+    color: #706C6C;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 10vw;
+    border: none;
+    background: #23D3D3;
+    color: whitesmoke;
 }
