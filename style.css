@@ -5,14 +5,16 @@
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     /* overflow-x: hidden; */
+    /* overflow-wrap: break-word; */
 }
+
+@media (min-width: 769px) {
 
 .banner {
     display: flex;
     position: relative;
     height: 140vh;
     background: #E5EEF6;
-    overflow-x: hidden;
 }
 
 button:hover {
@@ -30,6 +32,8 @@ button:hover {
     font-size: 2.9rem;
     line-height: 52px;
     color: #65DCDF;
+
+    /* overflow-wrap: break-word; */
 }
 
 .our-products {
@@ -147,8 +151,8 @@ button:hover {
 .safe-high-yield {
     line-height: 0.5;
     position: absolute;
-    width: 598px;
-    height: 161px;
+    /* width: 598px;
+    height: 161px; */
     left: 80px;
     top: 272px;
     font-family: Poppins;
@@ -161,7 +165,7 @@ button:hover {
 
 .opening-message {
     position: absolute;
-    width: 633.47px;
+    width: 600.47px;
     height: 250px;
     left: 80px;
     top: 447px;
@@ -171,6 +175,7 @@ button:hover {
     font-size: 1.5rem;
     line-height: 29px;
     color: #444546;
+    overflow-wrap: break-word;
 }
 
 .serve {
@@ -1163,6 +1168,7 @@ button:hover {
     line-height: 21px;
     text-decoration-line: underline;
     color: #9D9595;
+    cursor: pointer;
 }
 
 /* blog section */
@@ -1357,4 +1363,10 @@ form>input {
     border: none;
     background: #23D3D3;
     color: whitesmoke;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
 }
