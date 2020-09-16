@@ -1113,7 +1113,7 @@ button:hover {
 .blog-section {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
     top: 702vh;
     background: #E5EEF6;
 }
@@ -1163,4 +1163,103 @@ button:hover {
     line-height: 21px;
     text-decoration-line: underline;
     color: #9D9595;
+}
+
+/* blog section */
+
+.blog-date {
+    position: absolute;
+    width: 334.96px;
+    height: 107px;
+    left: 3vw;
+    top: 33vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 16px;
+    color: #888383;
+}
+
+.financial-independence {
+    color: #285785;
+    font-size: 1.2rem;
+}
+
+.blog-title {
+    position: absolute;
+    /* width: 334.96px; */
+    height: 107px;
+    left: 3vw;
+    top: 38vh;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #353333;
+}
+
+.blog-body {
+    position: absolute;
+    width: 276px;
+    height: 174px;
+    left: 3vw;
+    top: 30rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+
+.blog-read-more {
+    position: absolute;
+    width: 276px;
+    height: 174px;
+    left: 0vw;
+    top: 12rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #285785;
+}
+
+.blog-individual-1 {
+    position: absolute;
+    width: 360px;
+    height: 70vh;
+    left: 7vw;
+    top: 1vh;
+    background: #FFFFFF;
+}
+
+.blog-individual-2 {
+    position: absolute;
+    width: 360px;
+    height: 70vh;
+    left: 35vw;
+    top: 1vh;
+    background: #FFFFFF;
+}
+
+.blog-individual-3 {
+    position: absolute;
+    width: 360px;
+    height: 70vh;
+    left: 63vw;
+    top: 1vh;
+    background: #FFFFFF;
+}
+
+.blog-img {
+    position: absolute;
+    width: 26.4vw;
+    height: 31vh;
+    /* left: 85px;
+    top: 240px; */
 }
