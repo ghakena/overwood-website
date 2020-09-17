@@ -11,7 +11,9 @@
         display: flex;
         position: relative;
         height: 140vh;
+        width: 98.72vw;
         background: #E5EEF6;
+        overflow-x: hidden;
     }
     button:hover {
         cursor: pointer;
@@ -98,7 +100,6 @@
     /* .dropdown:hover .dropbtn {
         background-color: #3e8e41;
     } */
-    
     .faqs {
         position: absolute;
         width: 52.88px;
@@ -416,7 +417,7 @@
     .mission-values {
         /* width: 100vw; */
         position: absolute;
-        width: 100vw;
+        width: 98.72vw;
         height: 112.8vh;
         /* left: 100px; */
         /* top: 149vh; */
@@ -498,7 +499,7 @@
         position: absolute;
         top: 253.1vh;
         left: 0vh;
-        width: 100vw;
+        width: 98.75vw;
         height: 125vh;
         background-color: #E5E5E5;
     }
@@ -636,7 +637,7 @@
         padding-top: 20vh;
         padding-left: 10vw;
         height: 100vh;
-        width: 100vw;
+        width: 98.72vw;
         top: 380vh;
         left: 0vw;
     }
@@ -650,7 +651,7 @@
     }
     .products-body {
         position: absolute;
-        width: 1224px;
+        width: 88vw;
         height: 317px;
         left: 6rem;
         top: 30vh;
@@ -660,7 +661,7 @@
         position: absolute;
         width: 382.13px;
         height: 289.19px;
-        left: 2vw;
+        left: 1vw;
         top: 2vh;
         background: #F9F5F0;
     }
@@ -668,7 +669,7 @@
         position: absolute;
         width: 382.13px;
         height: 289.19px;
-        left: 31vw;
+        left: 30vw;
         top: 2vh;
         background: #F9F5F0;
     }
@@ -676,7 +677,7 @@
         position: absolute;
         width: 382.13px;
         height: 289.19px;
-        left: 60vw;
+        left: 59vw;
         top: 2vh;
         background: #F9F5F0;
     }
@@ -804,7 +805,7 @@
     .testimonials {
         position: absolute;
         top: 480.5vh;
-        width: 1440px;
+        width: 98.72vw;
         height: 120vh;
         background: #E5EEF6;
     }
@@ -954,7 +955,7 @@
     }
     .next-steps {
         position: absolute;
-        width: 100vw;
+        width: 98.72vw;
         height: 100vh;
         top: 601vh;
         background: #E5EEF6;
@@ -1072,7 +1073,7 @@
     }
     .blog-section {
         position: absolute;
-        width: 100vw;
+        width: 98.72vw;
         height: 130vh;
         top: 702vh;
         background: #E5EEF6;
@@ -1214,7 +1215,7 @@
         position: absolute;
         top: 832.0vh;
         height: 60vh;
-        width: 100vw;
+        width: 98.72vw;
         bottom: 0rem;
         background: #00387A;
     }
