@@ -6,7 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 480px) {
+    button:hover {
+        cursor: pointer;
+    }
+    .banner {
+        
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
     .banner {
         display: flex;
         position: relative;
