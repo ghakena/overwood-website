@@ -7,11 +7,427 @@
 }
 
 /* design for phone screens */
-@media (min-width: 320px) {
 
+@media (min-width: 320px) {
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    .banner {
+        width: 100%;
+        height: 225vh;
+        background: #E5EEF6;
+    }
+    .nav {
+        visibility: hidden;
+    }
+    .earn {
+        /* width: 98.72vw; */
+        font-size: 1.5rem;
+        margin-left: 3.0rem;
+        top: 30vh;
+    }
+    .safe-high-yield {
+        margin-left: 3.0rem;
+        display: flex;
+        flex-direction: row;
+        /* width: 98.72vw; */
+        font-size: 2.5rem;
+        line-height: 100%;
+        top: 42vh;
+        font-weight: bold;
+    }
+    .opening-message {
+        margin-left: 3.0rem;
+        position: absolute;
+        font-size: 1.1rem;
+        width: 75vw;
+        top: 32vh;
+    }
+    .serve {
+        position: absolute;
+        top: 9vh;
+        width: 75vw;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .invest-btn {
+        position: absolute;
+        top: 15vh;
+        left: 0px;
+        font-weight: bold;
+        background: #1E266D;
+        color: white;
+        border: none;
+        position: absolute;
+        width: 152px;
+        height: 42px;
+    }
+    .banner-img {
+        visibility: hidden;
+    }
+    .card-1, .card-2, .card-3, .card-4 {
+        display: block;
+    }
+    .card-1 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 3rem;
+        top: 60vh;
+        background-color: white;
+    }
+    .card-2 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 3rem;
+        top: 100vh;
+        background-color: white;
+    }
+    .card-3 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 3rem;
+        top: 140vh;
+        background-color: white;
+    }
+    .card-4 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 3rem;
+        top: 180vh;
+        background-color: white;
+    }
+    .card-1-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-1-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-1-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .card-2-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-2-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-2-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .card-3-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-3-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-3-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .card-4-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-4-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-4-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .mission-values {
+        position: absolute;
+        top: 225.5vh;
+        width: 100%;
+        background: #00387A;
+        color: white;
+        /* height: 100vh; */
+    }
+    .mission-img {
+        height: 500px;
+        width: 100%;
+    }
+    .who-we-are {
+        margin-left: 2.0rem;
+    }
+    .mission-values-h1 {
+        margin-left: 2.0rem;
+        font-size: 1.8rem;
+    }
+    .mission-values-body {
+        font-size: 1.0rem;
+        margin-left: 2.0rem;
+        font-weight: lighter;
+    }
+    .signature {
+        margin-left: 2.0rem;
+        width: 100px;
+    }
+    .ceo {
+        font-size: 1.0rem;
+        margin-left: 2.0rem;
+        margin-bottom: 2.0rem;
+    }
+    .six-things-section {
+        position: absolute;
+        top: 366.5vh;
+        width: 100%;
+        background-color: #E5E5E5;
+        padding: 1.5rem;
+    }
+    .credentials-heading-title {
+        margin-bottom: 2rem;
+    }
+    .card-3-1, .card-3-2, .card-3-3, .card-3-4, .card-3-5, .card-3-6 {
+        width: 60vw;
+        height: 40vh;
+        padding: 1.2rem;
+        background-color: white;
+        margin-bottom: 2.0rem;
+    }
+    .products-section {
+        position: absolute;
+        top: 644.5vh;
+        width: 100%;
+        background-color: #E5EEF6;
+        height: 105vh;
+        padding: 1.2rem;
+    }
+    .overwood-prime {
+        color: #72B4F8;
+    }
+    .overwood-dollar {
+        color: #5FD8D6;
+    }
+    .overwood-child {
+        color: #8950FC;
+    }
+    .products-individual-1, .products-individual-2, .products-individual-3 {
+        width: 50vw;
+        height: 30vh;
+        background: #F9F5F0;
+        padding: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .testimonials {
+        background-color: #E5EEF6;
+        position: absolute;
+        top: 750vh;
+        width: 100%;
+        padding: 1.2rem;
+    }
+    .vector {
+        margin-left: 20rem;
+    }
+    .header-description {
+        margin-bottom: 1rem;
+    }
+    .testimonial-card-1, .testimonial-card-2, .testimonial-card-3 {
+        background-color: white;
+        padding: 1.5rem;
+        width: 60vw;
+        margin-bottom: 1.5rem;
+    }
+    .next-steps {
+        position: absolute;
+        top: 909.5vh;
+        width: 100%;
+        height: 50vh;
+        background-color: #E5EEF6;
+        padding: 1.5rem;
+    }
+    .div-two {
+        margin-bottom: 1.5rem;
+    }
+    .next-steps-body {
+        background-color: white;
+        height: 24vh;
+        padding: 1.1rem;
+        display: flex;
+        flex-direction: row;
+        /* width: 60vw; */
+    }
+    .next-steps-single-1, .next-steps-single-2, .next-steps-single-3 {
+        background: #F9F5F0;
+        height: 20vh;
+        width: 36vw;
+        padding: 1.2rem;
+        margin-left: 0.5rem;
+    }
+    .blog-section {
+        position: absolute;
+        top: 960.0vh;
+        width: 100%;
+        background-color: #E5EEF6;
+        padding: 1.5rem;
+    }
+    .blog-section-header {
+        padding-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .all-posts {
+        position: absolute;
+        margin-left: 63vw;
+    }
+    .blog-individual-1, .blog-individual-2, .blog-individual-3 {
+        width: 360px;
+        height: 60vh;
+        left: 7vw;
+        top: 1vh;
+        background: #FFFFFF;
+        margin-bottom: 1.5rem;
+    }
+    .blog-date {
+        padding-left: 1rem;
+    }
+    .blog-title {
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .blog-body {
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .footer-section {
+        position: absolute;
+        top: 1162.5vh;
+        background: #00387A;
+        color: white;
+        width: 100%;
+        padding: 1rem;
+    }
+    .footer-section-1, .footer-section-2, .footer-section-3, .footer-section-4 {
+        margin-bottom: 1.9rem;
+    }
+    .footer-section-4 form input {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .address {
+        margin-top: 0px;
+    }
+    form>input {
+        padding: 1rem;
+        border: none;
+        border-radius: 2px;
+    }
+    .btn {
+        padding: 10px 20px;
+        width: 20vw;
+        border: none;
+        background: #23D3D3;
+        color: whitesmoke;
+    }
+    .btn:hover {
+        cursor: pointer;
+    }
 }
 
+
 /* design for iPad screen */
+
 @media (min-width: 481px) {
     body {
         padding: 0;
@@ -412,7 +828,7 @@
     .address {
         margin-top: 0px;
     }
-    form > input {
+    form>input {
         padding: 1rem;
         border: none;
         border-radius: 2px;
@@ -430,6 +846,7 @@
 }
 
 /* design for laptop screens (medium) */
+
 @media (min-width: 769px) {
     .nav {
         visibility: visible;
