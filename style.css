@@ -18,7 +18,7 @@
         cursor: pointer;
     }
     .banner {
-        width: 100%;
+        width: 100vw;
         height: 225vh;
         background: #E5EEF6;
     }
@@ -29,7 +29,7 @@
         /* width: 98.72vw; */
         font-size: 1.5rem;
         margin-left: 3.0rem;
-        top: 30vh;
+        top: 20vh;
     }
     .safe-high-yield {
         margin-left: 3.0rem;
@@ -38,7 +38,7 @@
         /* width: 98.72vw; */
         font-size: 2.5rem;
         line-height: 100%;
-        top: 42vh;
+        top: 25vh;
         font-weight: bold;
     }
     .opening-message {
@@ -47,17 +47,18 @@
         font-size: 1.1rem;
         width: 75vw;
         top: 32vh;
+        font-weight: lighter;
     }
     .serve {
         position: absolute;
-        top: 9vh;
+        top: 10vh;
         width: 75vw;
         font-size: 1.1rem;
         font-weight: bold;
     }
     .invest-btn {
         position: absolute;
-        top: 15vh;
+        top: 17vh;
         left: 0px;
         font-weight: bold;
         background: #1E266D;
@@ -75,7 +76,7 @@
     }
     .card-1 {
         position: absolute;
-        width: 200px;
+        width: 250px;
         height: 202.3px;
         left: 3rem;
         top: 60vh;
@@ -83,7 +84,7 @@
     }
     .card-2 {
         position: absolute;
-        width: 200px;
+        width: 250px;
         height: 202.3px;
         left: 3rem;
         top: 100vh;
@@ -91,7 +92,7 @@
     }
     .card-3 {
         position: absolute;
-        width: 200px;
+        width: 250px;
         height: 202.3px;
         left: 3rem;
         top: 140vh;
@@ -99,7 +100,7 @@
     }
     .card-4 {
         position: absolute;
-        width: 200px;
+        width: 250px;
         height: 202.3px;
         left: 3rem;
         top: 180vh;
@@ -246,7 +247,7 @@
         /* height: 100vh; */
     }
     .mission-img {
-        height: 500px;
+        height: 400px;
         width: 100%;
     }
     .who-we-are {
@@ -260,6 +261,7 @@
         font-size: 1.0rem;
         margin-left: 2.0rem;
         font-weight: lighter;
+        padding: 0.5rem;
     }
     .signature {
         margin-left: 2.0rem;
@@ -272,7 +274,7 @@
     }
     .six-things-section {
         position: absolute;
-        top: 366.5vh;
+        top: 353.8vh;
         width: 100%;
         background-color: #E5E5E5;
         padding: 1.5rem;
@@ -281,15 +283,15 @@
         margin-bottom: 2rem;
     }
     .card-3-1, .card-3-2, .card-3-3, .card-3-4, .card-3-5, .card-3-6 {
-        width: 60vw;
-        height: 40vh;
+        width: 80vw;
+        height: 34vh;
         padding: 1.2rem;
         background-color: white;
         margin-bottom: 2.0rem;
     }
     .products-section {
         position: absolute;
-        top: 644.5vh;
+        top: 594.8vh;
         width: 100%;
         background-color: #E5EEF6;
         height: 105vh;
@@ -305,24 +307,24 @@
         color: #8950FC;
     }
     .products-individual-1, .products-individual-2, .products-individual-3 {
-        width: 50vw;
-        height: 30vh;
+        width: 80vw;
+        height: 25vh;
         background: #F9F5F0;
         padding: 1.2rem;
         margin-bottom: 1.5rem;
     }
+    .products-h1 {
+        margin-bottom: 1rem;
+    }
     .testimonials {
         background-color: #E5EEF6;
         position: absolute;
-        top: 750vh;
+        top: 700vh;
         width: 100%;
         padding: 1.2rem;
     }
     .vector {
-        margin-left: 20rem;
-    }
-    .header-description {
-        margin-bottom: 1rem;
+        margin-left: 10rem;
     }
     .testimonial-card-1, .testimonial-card-2, .testimonial-card-3 {
         background-color: white;
@@ -332,11 +334,18 @@
     }
     .next-steps {
         position: absolute;
-        top: 909.5vh;
+        top: 885.5vh;
         width: 100%;
         height: 50vh;
         background-color: #E5EEF6;
         padding: 1.5rem;
+    }
+    .header-title {
+        font-size: 1.0rem;
+    }
+    .header-description {
+        margin-bottom: 1rem;
+        font-size: 2rem;
     }
     .div-two {
         margin-bottom: 1.5rem;
@@ -358,7 +367,7 @@
     }
     .blog-section {
         position: absolute;
-        top: 960.0vh;
+        top: 936.0vh;
         width: 100%;
         background-color: #E5EEF6;
         padding: 1.5rem;
@@ -372,12 +381,15 @@
         margin-left: 63vw;
     }
     .blog-individual-1, .blog-individual-2, .blog-individual-3 {
-        width: 360px;
+        width: 250px;
         height: 60vh;
         left: 7vw;
         top: 1vh;
         background: #FFFFFF;
         margin-bottom: 1.5rem;
+    }
+    .blog-img {
+        width: 250px;
     }
     .blog-date {
         padding-left: 1rem;
@@ -392,14 +404,14 @@
     }
     .footer-section {
         position: absolute;
-        top: 1162.5vh;
+        top: 1138.0vh;
         background: #00387A;
         color: white;
         width: 100%;
         padding: 1rem;
     }
     .footer-section-1, .footer-section-2, .footer-section-3, .footer-section-4 {
-        margin-bottom: 1.9rem;
+        margin-bottom: 2.1rem;
     }
     .footer-section-4 form input {
         display: block;
@@ -415,7 +427,7 @@
     }
     .btn {
         padding: 10px 20px;
-        width: 20vw;
+        width: 30vw;
         border: none;
         background: #23D3D3;
         color: whitesmoke;
@@ -424,7 +436,6 @@
         cursor: pointer;
     }
 }
-
 
 /* design for iPad screen */
 
