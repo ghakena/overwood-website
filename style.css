@@ -6,21 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 480px) {
-    button:hover {
-        cursor: pointer;
-    }
-    .banner {
-        
-    }
-}
-
-
-
-
-
-
-
 @media (max-width: 1200px) {
     .banner {
         display: flex;
@@ -1309,5 +1294,278 @@
     }
     .btn:hover {
         cursor: pointer;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    .banner {
+        width: 100%;
+        height: 260vh;
+    }
+    .nav {
+        visibility: hidden;
+    }
+    .earn {
+        /* width: 98.72vw; */
+        font-size: 1.4rem;
+        margin-left: 0rem;
+        top: 30vh;
+    }
+    .safe-high-yield {
+        margin-left: 0rem;
+        display: flex;
+        flex-direction: row;
+        /* width: 98.72vw; */
+        font-size: 1.9rem;
+        line-height: 100%;
+        top: 38vh;
+    }
+    .opening-message {
+        margin-left: 0rem;
+        position: absolute;
+        top: 60vh;
+        font-size: 1.1rem;
+        width: 75vw;
+        top: 48vh;
+    }
+    .serve {
+        position: absolute;
+        top: 16vh;
+        width: 75vw;
+        font-size: 1.1rem;
+    }
+    .invest-btn {
+        position: absolute;
+        top: 30vh;
+    }
+    .banner-img {
+        visibility: hidden;
+    }
+    .card-1, .card-2, .card-3, .card-4 {
+        display: block;
+    }
+    .card-1 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 80px;
+        top: 550px;
+        background-color: white;
+    }
+    .card-2 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 80px;
+        top: 780px;
+        background-color: white;
+    }
+    .card-3 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 80px;
+        top: 1010px;
+        background-color: white;
+    }
+    .card-4 {
+        position: absolute;
+        width: 200px;
+        height: 202.3px;
+        left: 80px;
+        top: 1240px;
+        background-color: white;
+    }
+    .card-1-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-1-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-1-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .card-2-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-2-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-2-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .card-3-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-3-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-3-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .card-4-title {
+        position: absolute;
+        width: 68.39px;
+        height: 54.53px;
+        left: 5.28px;
+        top: 2.95px;
+    }
+    .card-4-h4 {
+        position: absolute;
+        width: 238.44px;
+        height: 36.04px;
+        left: 12.3px;
+        top: 48.65px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 42px;
+        color: #353333;
+    }
+    .card-4-body {
+        position: absolute;
+        /* width: 283.72px; */
+        height: 55.45px;
+        left: 12.3px;
+        top: 100.27px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 28px;
+        color: #353333;
+    }
+    .mission-values {
+        position: absolute;
+        top: 260vh;
+        width: 100%;
+    }
+
+
+
+    .six-things-section {
+        position: absolute;
+        top: 372.8vh;
+        width: 100%;
+    }
+
+
+
+    .products-section {
+        position: absolute;
+        top: 497.8vh;
+        width: 100%;
+    }
+
+
+
+    .testimonials {
+        position: absolute;
+        top: 598vh;
+        width: 100%;
+    }
+
+
+
+    .next-steps {
+        position: absolute;
+        top: 718.5vh;
+        width: 100%;
+    }
+
+
+
+    .blog-section {
+        position: absolute;
+        top: 819.0vh;
+        width: 100%;
+    }
+
+
+
+    .footer-section {
+        position: absolute;
+        top: 950vh;
     }
 }
