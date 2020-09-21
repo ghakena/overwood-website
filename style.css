@@ -6,6 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* design for phone screens */
+@media (min-width: 320px) {
+
+}
+
+/* design for iPad screen */
 @media (min-width: 481px) {
     body {
         padding: 0;
@@ -423,6 +429,7 @@
     }
 }
 
+/* design for laptop screens (medium) */
 @media (min-width: 769px) {
     .nav {
         visibility: visible;
