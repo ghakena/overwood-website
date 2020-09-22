@@ -13,6 +13,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        color: #222121;
     }
     button:hover {
         cursor: pointer;
@@ -30,6 +31,7 @@
         font-size: 1.5rem;
         margin-left: 3.0rem;
         top: 20vh;
+        color: #1E266D;
     }
     .safe-high-yield {
         margin-left: 3.0rem;
@@ -40,6 +42,7 @@
         line-height: 100%;
         top: 25vh;
         font-weight: bold;
+        color: #1E266D;
     }
     .opening-message {
         margin-left: 3.0rem;
@@ -55,6 +58,7 @@
         width: 75vw;
         font-size: 1.1rem;
         font-weight: bold;
+        color: #1E266D;
     }
     .invest-btn {
         position: absolute;
@@ -79,7 +83,7 @@
         width: 250px;
         height: 202.3px;
         left: 3rem;
-        top: 60vh;
+        top: 63vh;
         background-color: white;
     }
     .card-2 {
@@ -87,7 +91,7 @@
         width: 250px;
         height: 202.3px;
         left: 3rem;
-        top: 100vh;
+        top: 103vh;
         background-color: white;
     }
     .card-3 {
@@ -95,7 +99,7 @@
         width: 250px;
         height: 202.3px;
         left: 3rem;
-        top: 140vh;
+        top: 143vh;
         background-color: white;
     }
     .card-4 {
@@ -103,7 +107,7 @@
         width: 250px;
         height: 202.3px;
         left: 3rem;
-        top: 180vh;
+        top: 183vh;
         background-color: white;
     }
     .card-1-title {
@@ -238,6 +242,10 @@
         line-height: 28px;
         color: #353333;
     }
+    .card-1-title, .card-2-title, .card-3-title, .card-4-title {
+        width: 50px;
+        height: 40px;
+    }
     .mission-values {
         position: absolute;
         top: 225.5vh;
@@ -278,6 +286,14 @@
         width: 100%;
         background-color: #E5E5E5;
         padding: 1.5rem;
+    }
+    .umbrella {
+        width: 50px;
+        height: 40px;
+    }
+    .how-it-works {
+        color: #222121;
+        font-weight: bold;
     }
     .credentials-heading-title {
         margin-bottom: 2rem;
@@ -382,7 +398,7 @@
     }
     .blog-individual-1, .blog-individual-2, .blog-individual-3 {
         width: 250px;
-        height: 60vh;
+        height: 55vh;
         left: 7vw;
         top: 1vh;
         background: #FFFFFF;
@@ -397,6 +413,8 @@
     .blog-title {
         padding-left: 1rem;
         margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
     }
     .blog-body {
         padding-left: 1rem;
@@ -404,14 +422,14 @@
     }
     .footer-section {
         position: absolute;
-        top: 1138.0vh;
+        top: 1123.5vh;
         background: #00387A;
         color: white;
         width: 100%;
         padding: 1rem;
     }
     .footer-section-1, .footer-section-2, .footer-section-3, .footer-section-4 {
-        margin-bottom: 2.1rem;
+        margin-bottom: 2.0rem;
     }
     .footer-section-4 form input {
         display: block;
@@ -1790,7 +1808,7 @@
     .vector {
         position: absolute;
         top: 5.3vh;
-        left: 20vw;
+        left: 4vw;
     }
     .person-body {
         position: absolute;
